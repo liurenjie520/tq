@@ -198,8 +198,9 @@ window.onload=savePieImg;
 				pixelRatio: 1.5, //放大两倍下载，之a后压缩到同等大小展示。解决生成图片在移动端模糊问题
 				backgroundColor: '#fff'
 			}); //获取到的是一串base64信息
-			document.getElementById("temp2").innerHTML = picInfo
-
+//			document.getElementById("temp2").innerHTML = picInfo
+			document.getElementById("temp2").value = picInfo
+		
 
 			
 			var picInfo2 = myChart2.getDataURL({
@@ -207,7 +208,8 @@ window.onload=savePieImg;
 				pixelRatio: 1.5, //放大两倍下载，之a后压缩到同等大小展示。解决生成图片在移动端模糊问题
 				backgroundColor: '#fff'
 			}); //获取到的是一串base64信息
-			document.getElementById("wind2").innerHTML = picInfo
+//			document.getElementById("wind2").innerHTML = picInfo2
+			document.getElementById("wind2").value = picInfo2
 
 
 
