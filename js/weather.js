@@ -113,8 +113,8 @@ $(document).ready(function() {
 
 		var option2 = {
 			title: {
-				text: '未来24小时风向风速' + '[' + t + ']',
-				subtext: data.result.hourly.description,
+				text: '未来24小时风向风速',
+				subtext: data.result.hourly.description + '[' + t + ']',
 				x: 'center',
 				align: 'right'
 			},
